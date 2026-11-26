@@ -12,6 +12,6 @@ the optimal answer, including routes that revisit buildings.
 
 Both time and memory are O(nm). A blocked border simplifies neighbor traversal.
 
-Build with `cmake -S . -B build && cmake --build build`.
-Run local verification with `python3 tests/check.py ./build/code`.
+Build with `make`.
+Run local verification with `python3 tests/check.py ./code`.
 The provided sample-data directory was unavailable in this environment.
